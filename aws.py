@@ -163,8 +163,8 @@ class CargaDatos:
 
 CargaDatos = CargaDatos()
 
-ruta_crudo = "s3://amz-coffenorth-data/crudo/"
-ruta_limpio = "s3://amz-coffenorth-data/limpio/"
+ruta_crudo = "s3://ubicacion_datos_crudos"
+ruta_limpio = "s3://ubicacion_datos_limpios"
 
 # Carga de Exchange rate
 df_Exchange_rate = CargaDatos.Cargar_CSV(ruta_crudo + "exchange_rates.csv")

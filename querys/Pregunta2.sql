@@ -1,7 +1,7 @@
 CREATE TABLE reporte_quiebres_stock 
 WITH (
     format = 'PARQUET',
-    external_location = 's3://amz-coffenorth-data/resultados/QuerysPrincipales/QuiebreStock/'
+    external_location = 's3://ruta_a_guardar_querys'
 ) AS 
 WITH max_fecha AS (
     -- Obtenemos la fecha más reciente real que existe en tus datos

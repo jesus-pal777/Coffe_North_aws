@@ -1,7 +1,7 @@
 CREATE TABLE reporte_top_skus 
 WITH (
     format = 'PARQUET',
-    external_location = 's3://amz-coffenorth-data/resultados/QuerysPrincipales/Top10_sku/'
+    external_location = 's3://ruta_a_guardar_querys'
 ) AS
 WITH ventas_unificadas AS (
     -- Ventas físicas (POS)

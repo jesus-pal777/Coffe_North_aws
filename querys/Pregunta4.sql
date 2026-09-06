@@ -1,7 +1,7 @@
 CREATE TABLE reporte_margen_negativo 
 WITH (
     format = 'PARQUET',
-    external_location = 's3://amz-coffenorth-data/resultados/QuerysPrincipales/MargenNegativo/'
+    external_location = 's3://ruta_a_guardar_querys'
 ) AS 
 WITH costos_vigentes AS (
     SELECT 

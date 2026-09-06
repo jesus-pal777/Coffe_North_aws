@@ -1,7 +1,7 @@
 CREATE TABLE reporte_crecimiento_mom 
 WITH (
     format = 'PARQUET',
-    external_location = 's3://amz-coffenorth-data/resultados/QuerysPrincipales/Crecimiento_MoM/'
+    external_location = 's3://ruta_a_guardar_querys'
 ) AS 
 WITH ventas_fisicas_mxn AS (
     SELECT 
